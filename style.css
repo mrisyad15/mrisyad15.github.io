@@ -1,0 +1,210 @@
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+/* HEADER FOTO */
+.header{
+	/*background-image: url("img/header.jpg");*/
+
+	height:45%; 
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/* ANIMASI NAMA DAN FOTO */
+.animasi{
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+.bg-foto{
+	position: absolute;
+	background-color: #f2f2f2;
+	border-radius: 6px;
+	box-shadow: 0 0 34px 6px rgba(0,0,0,.6);
+	margin:15% 9%;
+	height: 39%;
+	width: 19%;
+	border: 1px solid black;
+}
+
+.foto{
+	position: absolute;
+	margin:16% 10% auto;
+	height: 35%;
+	width: 17%;
+	border: 1px solid black;
+}
+
+.nama{
+	position: absolute;
+	margin: 220px 30%;
+	color:#f2f2f2;
+	font-size: 2vw;
+	animation-name: fadein;
+	animation-duration: 1.9s;
+}
+
+@keyframes fadein{
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+.nama-profesi{
+	position: absolute;
+	margin: 255px 440px;	
+	color:#f2f2f2;
+/*animasi*/
+	animation-name: slideLeft;
+	-webkit-animation-name: slideLeft;
+
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+
+	visibility: visible !important;
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(150%);
+	}
+	50%{
+		transform: translateX(-8%);
+	}
+	65%{
+		transform: translateX(4%);
+	}
+	80%{
+		transform: translateX(-4%);
+	}
+	95%{
+		transform: translateX(2%);
+	}			
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		-webkit-transform: translateX(150%);
+	}
+	50%{
+		-webkit-transform: translateX(-8%);
+	}
+	65%{
+		-webkit-transform: translateX(4%);
+	}
+	80%{
+		-webkit-transform: translateX(-4%);
+	}
+	95%{
+		-webkit-transform: translateX(2%);
+	}			
+	100% {
+		-webkit-transform: translateX(0%);
+	}
+}
+
+/* ICON SOSMED */
+
+.icon-fb{
+	width: 40px;
+	height: 40px;
+	margin-top: 235px;
+	margin-right: 100px;
+	
+	animation-name: fadein;
+	animation-duration: 2.5s;
+}
+
+.icon-fb:hover{
+	border: 2px solid;
+	border-radius:5px;
+	border-color: #fff;
+	transition-duration: 1s;
+}
+
+.icon-sosial{
+	width: 40px;
+	height: 40px;
+	margin-top: 235px;
+	margin-right: 50px;	
+	animation-name: fadein;
+	animation-duration: 2.5s;
+}
+
+.icon-sosial:hover{
+	border: 2px solid;
+	border-radius:5px;
+	border-color: #fff;
+	transition-duration: 1s;
+}
+
+/*.fb{
+	width: 53px;
+	height: 53px;
+	font-size: 27px;
+	position: absolute;
+	margin: 227px 1218px;
+	border: 1.3px;
+	border-style: solid;
+	border-color: #d8d8d8;
+	border-radius: 6px;
+	background-color: rgb(0,0,0,.2);
+}
+
+.wa{
+	width: 53px;
+	height: 53px;
+	font-size: 27px;
+	position: absolute;
+	margin: 227px 1127px;
+	border: 1.3px;
+	border-style: solid;
+	border-color: #d8d8d8;
+	border-radius: 6px;
+	background-color: rgb(0,0,0,.2);
+}
+
+.ig{
+	width: 53px;
+	height: 53px;
+	font-size: 27px;
+	position: absolute;
+	margin: 227px 1218px;
+	border: 1.3px;
+	border-style: solid;
+	border-color: #d8d8d8;
+	border-radius: 6px;
+	background-color: rgb(0,0,0,.2);
+}*/
+.stori{
+	margin-top: 10%;
+	margin-left: 15px;
+}
+
+
+.text{
+	margin-top: 10%;
+	margin-left: 50px;
+	width: 50%;
+	font-family: Quicksand,sans-serif!important;
+}
+
+.bates{
+	border: 1px #000 solid;
+	width: 0px;
+	height: 100%;
+	/*padding-left: 50%; */
+}
